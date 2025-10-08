@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import '../models/directions.dart';
+import '../../features/ride/data/directions.dart';
 
 class AppInfo extends ChangeNotifier{
   Directions? userPickupLocation,userDropOffLocation;

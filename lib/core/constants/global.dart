@@ -1,13 +1,13 @@
 
 import 'dart:async';
 
-import 'package:drivers/models/driver_data.dart';
+import 'package:drivers/features/ride/data/driver_data.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/ui/utils/stream_subscriber_mixin.dart';
 import 'package:geolocator/geolocator.dart';
 
-import '../models/direction_details_info.dart';
-import '../models/user_model.dart';
+import '../../features/ride/data/direction_details_info.dart';
+import '../../shared/models/user_model.dart';
 
 final FirebaseAuth firebaseAuth= FirebaseAuth.instance;
 

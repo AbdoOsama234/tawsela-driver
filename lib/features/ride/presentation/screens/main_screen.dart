@@ -1,12 +1,11 @@
-import 'package:drivers/auth/login_screen.dart';
-import 'package:drivers/global/global.dart';
+import 'package:drivers/core/constants/global.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'TabBar Screens/earnings_tab.dart';
-import 'TabBar Screens/home_tab.dart';
-import 'TabBar Screens/profile_tab.dart';
-import 'TabBar Screens/ratings_tab.dart';
+import '../../../home/earnings_tab.dart';
+import '../../../home/home_tab.dart';
+import '../../../home/profile_tab.dart';
+import '../../../home/ratings_tab.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});

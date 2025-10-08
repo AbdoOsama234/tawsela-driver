@@ -1,4 +1,4 @@
-import 'package:drivers/screens/car_info_screen.dart';
+import 'package:drivers/features/car/car_info_screen.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
@@ -8,8 +8,8 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:gap/gap.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
-import '../global/global.dart';
-import '../main_screen.dart';
+import '../../core/constants/global.dart';
+
 import 'forget_password_screen.dart';
 import 'login_screen.dart';
 

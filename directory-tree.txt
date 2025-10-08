@@ -1,0 +1,68 @@
+lib/
+├── core/
+│   ├── config/
+│   │   └── firebase_options.dart
+│   ├── constants/
+│   │   └── global.dart
+│   ├── location/
+│   │   └── location_service.dart
+│   ├── routing/
+│   │   └── app_router.dart
+│   ├── services/
+│   │   ├── assistant_api/
+│   │       ├── assistants_methods.dart
+│   │       └── request_assistants.dart
+│   ├── theme/
+│   │   └── theme_provider.dart
+│   ├── widgets/
+│       └── progress_dialog.dart
+├── features/
+│   ├── auth/
+│   │   ├── forget_password_screen.dart
+│   │   ├── login_screen.dart
+│   │   └── register_screen.dart
+│   ├── car/
+│   │   └── car_info_screen.dart
+│   ├── home/
+│   │   ├── earnings_tab.dart
+│   │   ├── home_tab.dart
+│   │   ├── profile_tab.dart
+│   │   └── ratings_tab.dart
+│   ├── navigation/
+│   │   └── drawer_screen.dart
+│   ├── ride/
+│   │   ├── data/
+│   │   │   ├── datasources/
+│   │   │   │   └── directions_remote_data_source.dart
+│   │   │   ├── repositories/
+│   │   │   │   └── ride_repository.dart
+│   │   │   ├── direction_details_info.dart
+│   │   │   ├── directions.dart
+│   │   │   └── driver_data.dart
+│   │   ├── domain/
+│   │   │   ├── entities/
+│   │   │       ├── nav_step.dart
+│   │   │       └── trip_stage.dart
+│   │   ├── presentation/
+│   │       ├── map/
+│   │       │   └── map_overlays.dart
+│   │       ├── screens/
+│   │       │   ├── main_screen.dart
+│   │       │   └── ride_request_sheet.dart
+│   │       ├── widgets/
+│   │           ├── banner_card.dart
+│   │           ├── info_chip.dart
+│   │           ├── offline_overlay.dart
+│   │           ├── status_badge.dart
+│   │           └── trip_hud_sheet.dart
+│   ├── splash/
+│       └── splach_screen.dart
+├── shared/
+│   ├── models/
+│   │   └── user_model.dart
+│   ├── state/
+│       └── app_info.dart
+├── utils/
+│   ├── formatters.dart
+│   └── geo_utils.dart
+└── main.dart

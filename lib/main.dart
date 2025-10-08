@@ -1,14 +1,14 @@
-import 'package:drivers/screens/car_info_screen.dart';
-import 'package:drivers/themeProvider/theme_provider.dart';
+import 'package:drivers/features/car/car_info_screen.dart';
+import 'package:drivers/core/theme/theme_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 
-import 'auth/login_screen.dart';
-import 'firebase_options.dart';
-import 'infoHandler/app_info.dart';
-import 'main_screen.dart';
+import 'core/config/firebase_options.dart';
+import 'features/auth/login_screen.dart';
+import 'shared/state/app_info.dart';
+import 'features/ride/presentation/screens/main_screen.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized(); // 👈 السطر المهم

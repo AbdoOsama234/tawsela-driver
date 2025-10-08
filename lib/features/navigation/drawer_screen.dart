@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 
-import '../global/global.dart';
+import '../../core/constants/global.dart';
 
 class DrawerScreen extends StatelessWidget {
   const DrawerScreen({super.key});
